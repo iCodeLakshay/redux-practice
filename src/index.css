@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+.bg-primary {
+  background-color: #1a1a1b; 
+}
+
+.text-primary {
+  color: #1a1a1b;
+}
+
+.bg-primary-foreground {
+  background-color: #ffffff; /* White */
+}
+
+.text-primary-foreground {
+  color: #ffffff; /* White text */
+}
+
+.bg-secondary {
+  background-color: #9333EA; /* Purple */
+}
+
+.text-secondary {
+  color: #9333EA; /* Purple */
+}
+
+.text-secondary-foreground {
+  color: #ffffff; /* White text on secondary */
+}
+
+/* Button Fix */
+button {
+  @apply px-4 py-2 font-semibold rounded-md transition duration-300;
+}
+
+button:hover {
+  opacity: 0.9;
+}
